@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="QmlTestAdapter.cb2a63d0-a22a-47b2-beb9-54bf128075aa" Version="0.1" Language="en-US" Publisher="Jesper Hellesø Hansen" />
+    <DisplayName>QmlTestAdapter (Qt Quick Test Adapter)</DisplayName>
+    <Description xml:space="preserve">Adds unit test support for Qt Quick (Qml) tests. Requires an installation of Qt (uses qmltestrunner)</Description>
+    <Icon>qmltestadapter.png</Icon>
+    <PreviewImage>qmltestadapter.png</PreviewImage>
+    <Tags>Unit Test Adapter, qmltestrunner, QML, Unit Test, Testing</Tags>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,12.0]" />
+    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.Ultimate" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="UnitTestExtension" d:Source="Project" d:ProjectName="QmlTestAdapter" Path="|QmlTestAdapter|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="QmlTestAdapter" Path="|QmlTestAdapter|" />
+  </Assets>
+</PackageManifest>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QmlTestAdapter", "QmlTestAdapter\QmlTestAdapter.csproj", "{ED5BF62B-7A8F-4394-8938-F8AADECC5B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QmlTestAdapterVSIX", "QmlTestAdapterVSIX\QmlTestAdapterVSIX.csproj", "{C5A562CD-5E29-433A-AA87-C55058E68A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QmlTestAdapterTest", "QmlTestAdapterTest\QmlTestAdapterTest.csproj", "{1093AD47-F5C7-47A7-8C39-C26914D04BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5BF62B-7A8F-4394-8938-F8AADECC5B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5BF62B-7A8F-4394-8938-F8AADECC5B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5BF62B-7A8F-4394-8938-F8AADECC5B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5BF62B-7A8F-4394-8938-F8AADECC5B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A562CD-5E29-433A-AA87-C55058E68A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A562CD-5E29-433A-AA87-C55058E68A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A562CD-5E29-433A-AA87-C55058E68A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A562CD-5E29-433A-AA87-C55058E68A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1093AD47-F5C7-47A7-8C39-C26914D04BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1093AD47-F5C7-47A7-8C39-C26914D04BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1093AD47-F5C7-47A7-8C39-C26914D04BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1093AD47-F5C7-47A7-8C39-C26914D04BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
